@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+#port-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15%;
+  padding-top: 1em;
+  flex-wrap: nowrap;
+  margin-left:1em ;
+  margin-right: 1em;
+  
+
+}
+
+a{
+  text-decoration: none ;
+}
+.card-title{
+   text-align: center; 
+  color: #33cccc;
+
+}
+
+h1{
+  text-align: center;
+}
+
+  .footer {
+    text-decoration: none;
+    color: #33cccc;
+  }
+#proff{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+#edu{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.experiance{
+    text-align: center;
+}
+
+
+
+  #footer{
+    margin-top: 12%;
+  }
+
+  #tech{
+    color: #33cccc;
+    font-weight: bold;
+
+  }
+
+  #create{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+
+  #projects{
+    color:blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+
+  #gen{
+    text-decoration: none;
+    color:blue;
+  }
+
+ 
+
+  #biopara{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: larger;
+  }
+
+  #bio-pic{
+   margin-bottom: 15%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #bio-footer{
+    padding-top: 50%;
+  }
+
+footer > div{
+    display:flex;
+    justify-content: space-between;
+    color:#33cccc;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-top: 15%; */
+    flex-shrink: 0;
+}
+
+.logo{
+    color: #33cccc;
+}
+
+footer > h5{
+    text-align: center;
+    
+}
+
+
+#home-title{
+    text-align: center;
+   
+}
+
+
+
+#home-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   
+  }
+
