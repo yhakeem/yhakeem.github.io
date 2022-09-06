@@ -28,6 +28,14 @@ a{
 
 h1{
   text-align: center;
+  text-shadow: 5px 5px #33cccc;;
+}
+
+#bioBody{
+  background-image: url("./imgs/www.jpg");
+   background-repeat: no-repeat; 
+   background-size: cover;
+  /* background-size: auto; */
 }
 
   .footer {
@@ -86,6 +94,8 @@ h1{
     padding-left: 10%;
     padding-right: 10%;
     font-size: larger;
+    color: white;
+    border: 1px dashed white;
   }
 
   #bio-pic{
